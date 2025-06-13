@@ -1,6 +1,10 @@
 {
+  "version": "1.0",
+  "schema": "https://w3id.org/brave/goggles/v1",
   "title": "Block Reddit and Quora",
   "description": "Excludes reddit.com and quora.com from Brave Search results.",
+  "created": "2025-06-13",
+  "modified": "2025-06-13",
   "rules": [
     { "action": "exclude", "pattern": "reddit.com" },
     { "action": "exclude", "pattern": "quora.com" }
