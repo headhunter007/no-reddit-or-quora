@@ -2,17 +2,19 @@
   "version": "1.0",
   "schema": "https://w3id.org/brave/goggles/v1",
   "title": "No Reddit or Quora",
-  "description": "A Brave Search Goggle that filters out reddit.com and quora.com from results.",
+  "description": "Filters out Reddit and Quora from Brave Search results.",
   "created": "2025-06-13",
   "modified": "2025-06-13",
   "include": [],
   "exclude": [],
   "rules": [
     {
+      "rule": "block-reddit",
       "action": "exclude",
       "pattern": "reddit.com"
     },
     {
+      "rule": "block-quora",
       "action": "exclude",
       "pattern": "quora.com"
     }
