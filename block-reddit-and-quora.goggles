@@ -1,0 +1,8 @@
+{
+  "title": "Block Reddit and Quora",
+  "description": "Excludes reddit.com and quora.com from Brave Search results.",
+  "rules": [
+    { "action": "exclude", "pattern": "reddit.com" },
+    { "action": "exclude", "pattern": "quora.com" }
+  ]
+}
