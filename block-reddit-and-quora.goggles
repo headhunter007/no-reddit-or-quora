@@ -1,22 +1,7 @@
-{
-  "version": "1.0",
-  "schema": "https://w3id.org/brave/goggles/v1",
-  "title": "No Reddit or Quora",
-  "description": "Filters out reddit.com and quora.com from Brave Search.",
-  "created": "2025-06-13",
-  "modified": "2025-06-13",
-  "include": [],
-  "exclude": [],
-  "rules": [
-    {
-      "rule": "block-reddit",
-      "action": "exclude",
-      "pattern": "reddit.com"
-    },
-    {
-      "rule": "block-quora",
-      "action": "exclude",
-      "pattern": "quora.com"
-    }
-  ]
-}
+! name: No Reddit or Quora  
+! description: Removes reddit and quora results  
+! public: true  
+! author: headhunter007  
+
+$discard,site=reddit.com  
+$discard,site=quora.com
