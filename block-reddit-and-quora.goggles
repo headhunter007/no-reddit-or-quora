@@ -2,7 +2,7 @@
   "version": "1.0",
   "schema": "https://w3id.org/brave/goggles/v1",
   "title": "No Reddit or Quora",
-  "description": "Filters out Reddit and Quora from Brave Search results.",
+  "description": "Filters out reddit.com and quora.com from Brave Search.",
   "created": "2025-06-13",
   "modified": "2025-06-13",
   "include": [],
