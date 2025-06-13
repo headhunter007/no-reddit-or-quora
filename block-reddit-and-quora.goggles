@@ -1,7 +1,7 @@
-! name: No Reddit or Quora  
-! description: Removes reddit and quora results  
-! public: true  
-! author: headhunter007  
+! name: No Reddit
+! description: Rerank results to remove pages / threads hosted on Reddit.
+! public: true
+! author: Caleb Albritton
+! avatar: #ffe135
 
-$discard,site=reddit.com  
-$discard,site=quora.com
+$discard,site=reddit.com
